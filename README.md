@@ -28,6 +28,10 @@ npm run build
 npm start
 ```
 
+## Deploy on GitHub Pages
+
+The repo includes a GitHub Actions workflow that builds and deploys on every push to `master`. Your site will be live at **https://01samber.github.io/portfolio-simon/** once the workflow completes.
+
 ## Deploy on Vercel
 
 1. Push your code to GitHub, GitLab, or Bitbucket
