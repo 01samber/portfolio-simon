@@ -2,18 +2,19 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { imagePath } from "@/lib/constants";
 
 const EDUCATION = [
   {
     institution: "Bishmizzine High School",
     program: "Lebanese Baccalaureate – Socioeconomic",
-    logo: "/images/bishmizzine-logo.png",
+    logo: imagePath("/images/bishmizzine-logo.png"),
   },
   {
     institution: "Notre Dame University",
     program: "Bachelor's Degree in Advertising and Marketing",
     highlight: "Honor's List",
-    logo: "/images/ndu-logo.png",
+    logo: imagePath("/images/ndu-logo.png"),
   },
 ];
 

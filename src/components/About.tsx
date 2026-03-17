@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { LightboxImage } from "./ImageLightbox";
+import { imagePath } from "@/lib/constants";
 
 const PILLARS = [
   {
@@ -48,7 +49,7 @@ export function About() {
             <LightboxImage src="/images/simon-full.png" alt="Simon E. Azar - Marketing Strategist & Creative Marketer">
               <div className="relative w-full h-full min-h-[400px] sm:min-h-[500px] lg:min-h-0">
                 <Image
-                  src="/images/simon-full.png"
+                  src={imagePath("/images/simon-full.png")}
                   alt="Simon E. Azar - Marketing Strategist & Creative Marketer"
                   fill
                   placeholder="blur"

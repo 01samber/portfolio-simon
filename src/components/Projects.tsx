@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { ProjectFlipBook } from "./ProjectFlipBook";
+import { imagePath } from "@/lib/constants";
 
 export type ProjectWithImages = {
   slug: string;
@@ -29,11 +30,11 @@ const PROJECTS: ProjectWithImages[] = [
     tagline: "Gen Z meets bold visuals",
     type: "Campaign",
     images: [
-      "/images/crepaway-logo.png",
-      "/images/crepaway-ooh.png",
-      "/images/crepaway-cinema.png",
-      "/images/crepaway-campaign.png",
-      "/images/crepaway-commitment.png",
+      imagePath("/images/crepaway-logo.png"),
+      imagePath("/images/crepaway-ooh.png"),
+      imagePath("/images/crepaway-cinema.png"),
+      imagePath("/images/crepaway-campaign.png"),
+      imagePath("/images/crepaway-commitment.png"),
     ],
     overview:
       "A Gen Z-focused campaign in Lebanon that combined bold visuals, witty copy, and culturally relevant activations. From CREPAWAY 2.0 branding to #CrepaWild OOH, cinema-themed creatives, and campaigns like 'Taste the World' and 'Married to flavor.'",
@@ -70,10 +71,10 @@ const PROJECTS: ProjectWithImages[] = [
     tagline: "Playful boba brand",
     type: "Brand",
     images: [
-      "/images/bobay-tablet-logo.png",
-      "/images/bobay-drink-car.png",
-      "/images/bobay-instagram.png",
-      "/images/bobay-cup-product.png",
+      imagePath("/images/bobay-tablet-logo.png"),
+      imagePath("/images/bobay-drink-car.png"),
+      imagePath("/images/bobay-instagram.png"),
+      imagePath("/images/bobay-cup-product.png"),
     ],
     overview:
       "Simon's own playful boba tea brand. Logo creation, identity design, and a full marketing plan.",
@@ -88,12 +89,12 @@ const PROJECTS: ProjectWithImages[] = [
     tagline: "Grain to kitchen storytelling",
     type: "Campaign",
     images: [
-      "/images/modernmills-logo-phone.png",
-      "/images/modernmills-conference.png",
-      "/images/modernmills-phases-tablet.png",
-      "/images/modernmills-packaging-laptop.png",
-      "/images/modernmills-instagram-feed.png",
-      "/images/modernmills-instagram-profile.png",
+      imagePath("/images/modernmills-logo-phone.png"),
+      imagePath("/images/modernmills-conference.png"),
+      imagePath("/images/modernmills-phases-tablet.png"),
+      imagePath("/images/modernmills-packaging-laptop.png"),
+      imagePath("/images/modernmills-instagram-feed.png"),
+      imagePath("/images/modernmills-instagram-profile.png"),
     ],
     overview:
       "Campaign built around transparency, grain-to-kitchen storytelling, and innovation in production.",
@@ -108,9 +109,9 @@ const PROJECTS: ProjectWithImages[] = [
     tagline: "Trust with farmers",
     type: "Social",
     images: [
-      "/images/premier-logo.png",
-      "/images/premier-instagram-profile.png",
-      "/images/premier-instagram-feed.png",
+      imagePath("/images/premier-logo.png"),
+      imagePath("/images/premier-instagram-profile.png"),
+      imagePath("/images/premier-instagram-feed.png"),
     ],
     overview:
       "Social media grids, strategic captions, and agricultural audience targeting built around quality and nutrition.",
@@ -125,12 +126,12 @@ const PROJECTS: ProjectWithImages[] = [
     tagline: "Premium vibe-driven positioning",
     type: "Brand",
     images: [
-      "/images/cremecafe-logo.png",
-      "/images/cremecafe-pitch-deck.png",
-      "/images/cremecafe-look-feel.png",
-      "/images/cremecafe-beautiful-problem.png",
-      "/images/cremecafe-instagram-profile.png",
-      "/images/cremecafe-instagram-feed.png",
+      imagePath("/images/cremecafe-logo.png"),
+      imagePath("/images/cremecafe-pitch-deck.png"),
+      imagePath("/images/cremecafe-look-feel.png"),
+      imagePath("/images/cremecafe-beautiful-problem.png"),
+      imagePath("/images/cremecafe-instagram-profile.png"),
+      imagePath("/images/cremecafe-instagram-feed.png"),
     ],
     overview:
       "Creative direction after rebrand. Visual identity refinement, Instagram and TikTok content, strategic pitch deck.",
