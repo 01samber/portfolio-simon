@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Simon E. Azar | Portfolio
 
-## Getting Started
+Premium portfolio website for Simon E. Azar — Marketing Strategist & Creative Marketer.
 
-First, run the development server:
+**Bold Ideas. Cultural Relevance. Marketing That Connects.**
+
+## Tech Stack
+
+- **Next.js 16** — React framework
+- **Tailwind CSS v4** — Styling
+- **Framer Motion** — Animations
+- **GSAP + ScrollTrigger** — Scroll-triggered effects
+- **Lenis** — Smooth scrolling
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+npm start
+```
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your code to GitHub, GitLab, or Bitbucket
+2. Go to [vercel.com](https://vercel.com) and sign in
+3. Import your repository
+4. Vercel will auto-detect Next.js — click **Deploy**
+5. Your site will be live with a `.vercel.app` URL
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For a custom domain (e.g. `simonazar.com`), add it in Project Settings → Domains.
+
+## Customization
+
+- **Metadata & SEO**: Edit `src/app/layout.tsx` for title, description, and Open Graph
+- **Content**: Update section components in `src/components/`
+- **Contact form**: Connect to an API or service (e.g. Formspree, Resend) in `src/components/Contact.tsx`
+- **Favicon**: Replace `public/favicon.svg` with your own
+
+## Sections
+
+- Hero — Name, tagline, CTAs
+- About — Introduction
+- Skills — 10 core competencies
+- Experience — Timeline (Freelance, You Experience MENA)
+- Projects — 6 case studies (Crepaway, BOB Finance, Bobay, Modern Mills, Premier Animal Feed, Creme Cafe)
+- Education — Bishmizzine High School, Notre Dame University
+- Contact — Email, phone, Instagram, contact form
+- Footer — Navigation, social links
